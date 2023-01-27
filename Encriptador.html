@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="EncriptadorStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" class="logo" alt="logo de Alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea rows="10" cols="30" id="ingreseTexto" placeholder="Ingrese texto aquí"></textarea>
+            </section>
+
+            <section class="rectangulo">
+                <div id="el-mensaje">
+                    <img src="imagenes/Muñeco.png" class="muneca">
+
+                    <p class="mensajeEncontrado">Ningún mensaje fue encontrado</p>
+
+                    <p class="encriptarDesencriptar">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+                <button class = "copiar">Copiar </button>
+
+            </section>
+
+            <section class="informacion">
+                <img src="imagenes/Vector.png" class="vector">
+                <p class="acentos">Sólo letras minúsculas y sin acento</p>
+            </section>
+
+            <section class="botones">
+                <button id="btnEncriptar" class="encriptar">Encriptar</button>
+                <button id="btnDesencriptar" class="desencriptar">Desencriptar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p class="slogan">Designed by Juan Antoio</p>
+            <p>&copy Derechos reservados</p>
+        </footer>
+
+        <script src="EncriptadorScript.js"></script>
+
+    </body>
+
+</html>
